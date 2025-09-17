@@ -1,0 +1,17 @@
+### 获取用户列表
+GET http://localhost:3000/api/users
+
+### 创建新用户
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "name": "赵六",
+  "email": "zhaoliu@example.com"
+}
+
+### 获取单个用户（存在）
+GET http://localhost:3000/api/users/1
+
+### 获取单个用户（不存在）
+GET http://localhost:3000/api/users/999
